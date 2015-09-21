@@ -1,0 +1,12 @@
+MapReduce methods
+    public String parameter() {}
+    public Cons mapreduce(String filename, String param) {}
+    public void collect_map(String key, Cons value) {}
+    public void collect_reduce(String key, Object value) {}
+
+MapReduce variables
+    private TreeMap themap;
+    private Mapper  mapper;
+    private Reducer reducer;
+    private Cons    result;
+    private String  parameter;
